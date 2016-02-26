@@ -1,0 +1,9 @@
+# Generated code
+lib
+
+# Dependencies
+node_modules
+
+# Editors
+.idea
+/npm-debug.log

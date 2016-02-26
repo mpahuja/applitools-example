@@ -1,0 +1,19 @@
+{
+  "name": "wsb-applitools",
+  "version": "0.0.1",
+  "description": "Standardized framework for running WSB UI tests",
+  "repository": {
+  },
+  "dependencies": {
+    "chai": "^3.2.0",
+    "chai-as-promised": "^5.1.0",
+    "mocha": "^2.3.0",
+    "eyes.selenium" : "latest",
+    "selenium-webdriver": "latest",
+    "wd": "^0.4.0"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha ./specs",
+    "prepublish": "npm test && babel src --out-dir lib"
+  }
+}
